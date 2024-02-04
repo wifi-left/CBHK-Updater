@@ -9,4 +9,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="favicon_32.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="favicon_32.png" />
+  </ItemGroup>
+
 </Project>
